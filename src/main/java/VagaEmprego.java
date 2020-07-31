@@ -1,11 +1,11 @@
-public class VagaDeEmprego {
+public class VagaEmprego {
 
     private String nomeVaga;
     private String cidade;
 
-    public VagaDeEmprego() { }
+    public VagaEmprego() { }
 
-    public VagaDeEmprego(String nomeVaga, String cidade) {
+    public VagaEmprego(String nomeVaga, String cidade) {
         this.nomeVaga = nomeVaga;
         this.cidade = cidade;
     }

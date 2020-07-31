@@ -1,20 +1,16 @@
 import java.util.List;
 
-public class FiltroDasCidade {
+public class FiltroCidade {
 
     private int candidato;
     private List<String> cidades;
-
-    public FiltroDasCidade() {
-
-    }
 
     public int getCandidato() {
         return candidato;
     }
 
-    public void setCandidato(int idCandidato) {
-        this.candidato = idCandidato;
+    public void setCandidato(int candidato) {
+        this.candidato = candidato;
     }
 
     public List<String> getCidades() {
@@ -23,9 +19,5 @@ public class FiltroDasCidade {
 
     public void setCidades(List<String> cidades) {
         this.cidades = cidades;
-    }
-
-    public void addCidade(String cidade) { // esta dando NullPointerException
-        cidades.add(cidade);
     }
 }
